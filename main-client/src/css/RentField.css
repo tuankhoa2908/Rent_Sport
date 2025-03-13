@@ -1,0 +1,11 @@
+.wrap-content-field-rent {
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.wrap-content-field-rent .title-rent-0 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}

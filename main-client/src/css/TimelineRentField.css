@@ -1,0 +1,48 @@
+.timeline-container {
+    position: relative;
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    background: #f9f9f9;
+}
+
+.timeline {
+    position: relative;
+    height: 50px;
+    background: #eaeaea;
+    display: flex;
+    align-items: center;
+}
+
+.timeline .time-block {
+    position: absolute;
+    height: 40px;
+    top: 5px;
+    background-color: #ff4d4f;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.time-labels {
+    display: flex;
+    justify-content: space-between;
+    /* Khoảng cách đều giữa các nhãn */
+    position: absolute;
+    top: -20px;
+    width: 100%;
+    /* Trải đều toàn bộ chiều ngang */
+    font-size: 12px;
+    color: #000000;
+}
+
+.time-labels span {
+    text-align: center;
+    width: 4%;
+    /* Tỉ lệ phù hợp để căn giữa */
+    transform: translateX(-50%);
+    /* Đảm bảo vị trí chính giữa */
+}
